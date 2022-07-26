@@ -3,7 +3,7 @@ layout: post
 title: "Special Relativity 1."
 subtitle: "Special Relativity"
 category: physics
-tags: Classical Mechanics
+tags: Classical-Mechanics
 ---
 
 #특수상대론 #상대론 #상대성원리 #광속 #불변 #로렌츠 #변환 #갈릴레이 #관성좌표계 #인자 #로렌츠인자 #민코프스키 #우주시간 #세계선 #빛 #시간지연 #길이수축 #쌍둥이역설 #동시성 #상대성 #상대론적속력 #기하학 #불변갼격 #회전분석 #선속도 #고유시간 #4백터
