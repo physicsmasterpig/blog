@@ -29,7 +29,7 @@ tags: Classical Mechanics
 
 광속불변의 원리는 마이켈슨-몰리 실험에서 입증되었다. 본래 에테르의 존재성을 확인하기 위해 계획되었던 이 실험에서 광속이 언제나 일정함이 검증되었다. 계를 움직이고 회전시키고 여러 조작을 반복해도 같은 결과를 얻은 이 실험에 대해서는 유명하기 때문에 찾아보기를 추천한다.
 
-![Full-width image](_posts/Physics/Classical Mechanis/image (1).png){:.lead width="800" height="100" loading="lazy"}
+![Full-width image](_posts/Physics/Classical-Mechanis/1.png)
 
 
 
