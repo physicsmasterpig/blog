@@ -136,13 +136,13 @@ defaults:
 
   # Don't include site verification file(for google) in the sitemap
   - scope:
-      path:            google.html
+      path:            google60cfc701992d5709.html
     values:
       sitemap:         false
 
   # Don't include site verification file(for naver) in the sitemap
   - scope:
-      path:            naver.html
+      path:            naver6c314dfc05ebc2e9c1858c7fb47143ae.html
     values:
       sitemap:         false
 
