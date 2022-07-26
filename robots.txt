@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://physicsmasterpig.github.io/sitemap.xml

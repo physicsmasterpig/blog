@@ -30,8 +30,12 @@ tags: classical-mechanics
 광속불변의 원리는 마이켈슨-몰리 실험에서 입증되었다. 본래 에테르의 존재성을 확인하기 위해 계획되었던 이 실험에서 광속이 언제나 일정함이 검증되었다. 계를 움직이고 회전시키고 여러 조작을 반복해도 같은 결과를 얻은 이 실험에 대해서는 유명하기 때문에 찾아보기를 추천한다.
 
 ![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/1.png)
+Figure 1. Michelson-Morley Interferometer
+{:.figcaption}
 
+사진에서 거울 2개와 반거울을 이용하여 빛을 거리가 같은 다른 두 경로로 검출기에 도달하게 하는데, 계를 움직이거나 회전시키면서 측정해도 빛의 속도가 일정함을 확인했다.
 
+그러면, 로렌츠 변환에 대해서 알아보자.
 
 $$
 \begin{aligned} %!!15
