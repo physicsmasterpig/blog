@@ -2,7 +2,7 @@
 layout: tag-list
 type: tag
 title: Classical Mechanics
-slug: physics
+slug: classical-mechanics
 category: physics
 sidebar: true
 description: >

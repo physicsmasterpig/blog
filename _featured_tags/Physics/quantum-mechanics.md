@@ -2,7 +2,7 @@
 layout: tag-list
 type: tag
 title: Quantum Mechanics
-slug: physics
+slug: quantum-mechancis
 category: physics
 sidebar: true
 description: >
