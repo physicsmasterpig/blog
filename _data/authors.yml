@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
   author1: PMP
   name:              Soo-Chang Lee
-  email:             physicsmp1217@seoul.ac.kr
+  email:             physicsmp1217@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -28,7 +28,7 @@
     linkedin:        
     github:          physicsmasterpig
     stackoverflow:   
-    email:           physicsmp1217@seoul.ac.kr
+    email:           physicsmp1217@gmail.com
     # rss:             
     # facebook:        <username>
     # google:          <number>

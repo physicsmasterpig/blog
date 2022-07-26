@@ -45,13 +45,13 @@ logo:                  /assets/img/me.jpg
 author:
   # Used by `jekyll-feed`:
   name:                Soo-Chang Lee
-  email:               physicsmp1217@seoul.ac.kr
+  email:               physicsmp1217@gmail.com
   picture:             /assets/img/me.jpg
   social:
     linkedin:          
     github:            physicsmasterpig
     stackoverflow:     
-    email:             physicsmp1217@seoul.ac.kr
+    email:             physicsmp1217@gmail.com
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
