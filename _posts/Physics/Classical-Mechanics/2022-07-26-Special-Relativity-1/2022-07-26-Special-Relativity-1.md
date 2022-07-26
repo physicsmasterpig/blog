@@ -28,3 +28,28 @@ tags: Classical Mechanics
 상대성이론에서는 갈릴레이 변환이 성립하지 않는다. 그 이유는 광속불변의 원리이다.
 
 광속불변의 원리는 마이켈슨-몰리 실험에서 입증되었다. 본래 에테르의 존재성을 확인하기 위해 계획되었던 이 실험에서 광속이 언제나 일정함이 검증되었다. 계를 움직이고 회전시키고 여러 조작을 반복해도 같은 결과를 얻은 이 실험에 대해서는 유명하기 때문에 찾아보기를 추천한다.
+
+![Full-width image](_posts/Physics/Classical Mechanis/image (1).png){:.lead width="800" height="100" loading="lazy"}
+
+
+
+$$
+\begin{aligned} %!!15
+  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
+                 \vdots          & \ddots & \vdots         \\
+                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}
+$$
+
+An optional caption for a math block
+{:.figcaption}
