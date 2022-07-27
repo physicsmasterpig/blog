@@ -4,10 +4,13 @@ title: "Special Relativity 1."
 subtitle: "Special Relativity"
 category: physics
 tags: classical-mechanics
+image: 
+  path: /assets/img/physics/2022-07-26-Special-Relativity-1/2.png
 ---
 
 #특수상대론 #상대론 #상대성원리 #광속 #불변 #로렌츠 #변환 #갈릴레이 #관성좌표계 #인자 #로렌츠인자 #민코프스키 #우주시간 #세계선 #빛 #시간지연 #길이수축 #쌍둥이역설 #동시성 #상대성 #상대론적속력 #기하학 #불변갼격 #회전분석 #선속도 #고유시간 #4백터
 
+<!--more-->
 
 상대성이론에는 일반상대성이론과 특수상대성이론이 있다. 아인슈타인이 발견한 이 이론의 역사에 관해서는 많은 자세한 글들이 있으니 참고하길 바란다. 이 글에서는 특수상대성이론의 개념을 알아보고 수학적으로 분석해볼 것이다.
 
@@ -29,7 +32,7 @@ tags: classical-mechanics
 
 광속불변의 원리는 마이켈슨-몰리 실험에서 입증되었다. 본래 에테르의 존재성을 확인하기 위해 계획되었던 이 실험에서 광속이 언제나 일정함이 검증되었다. 계를 움직이고 회전시키고 여러 조작을 반복해도 같은 결과를 얻은 이 실험에 대해서는 유명하기 때문에 찾아보기를 추천한다.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/1.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/1.png){:.centered}
 Figure 1. Michelson-Morley Interferometer.
 {:.figcaption}
 
@@ -37,7 +40,7 @@ Figure 1. Michelson-Morley Interferometer.
 
 그러면, 로렌츠 변환에 대해서 알아보자.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/2.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/2.png){:.centered}
 Figure 2. Two different Inertial Coordinates with a constant relative speed.
 {:.figcaption}
 
@@ -73,7 +76,7 @@ $$\begin{aligned}&\begin{cases}x'=\gamma \left(x-\frac{v}{c}ct\right)\\y'=y\\z'=
 
 민코프스키 다이어그램의 형태는 아래와 같다. 공간축과 시간축으로 구성되있는 복소좌표계이다.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/3.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/3.png){:.centered}
 Figure 3. Minkoffski Diagram. 
 {:.figcaption}
 
@@ -83,7 +86,9 @@ Figure 3. Minkoffski Diagram.
 
 이 세계선을 이용하면 다양한 역설을 해결할 수 있다. 이는 다음글인 역설편에서 더 자세히 다루겠다. 맛보기만 하면 아래 그림과 같이 움직이는 좌표계에서 본 세계는 좌표축이 빛의 세계선 쪽으로 회전한 형태로 된다. 그래서 기하적으로 두 좌표계 사이의 시간 간격과 공간 간격을 간편히 계산할 수 있다.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/4.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/4.png){:.centered}
+
+
 Figure 4. Minkoffski Diagram. 
 {:.figcaption}
 
@@ -106,7 +111,7 @@ $$\begin{aligned}&\begin{cases}\Delta s^2>0\ :\ 시간꼴\ 간격\\\Delta s^2<0\
 
 빛꼴 간격에서는 두 사건을 빛으로 연결 가능하다. 다시 말하면 두 사건 사이의 정보가 빛의 속도로 전달된다.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/5.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/5.jpg){:.centered}
 Figure 5. Light Cone. 
 https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%84%A0
 {:.figcaption}
@@ -159,16 +164,15 @@ $$\begin{aligned}&\Lambda ^T\eta \Lambda =\eta \end{aligned}$$
 
 첫번째 해의 형식은 다음과 같다.
 
-$$\begin{aligned}
-&\Lambda =  \left[ \begin{array}{ *{4}{c} }
-    & & & 1 \\
-    & & & \vdots  \\
-    \multicolumn{3}{c}
-      {\raisebox{\dimexpr\normalbaselineskip+.7\ht\strutbox-.5\height}[0pt][0pt]
-        {\scalebox{3}{$A$}}} & 1 \\
-    1 & \cdots & 1 & 0
-  \end{array} \right] 
-  \end{aligned}$$
+$$
+\left(
+\begin{array}{c | c}
+    1 & \begin{matrix}0 & 0 & 0\end{matrix} \\
+    \hline
+    \begin{matrix} 0\\0\\0\end{matrix} & R
+\end{array}
+\right)
+$$
 {:.figcaption}
 우리에게 부담스럽지 않은 형태이다. 이 행렬은 시간은 그대로 두고 공간을 바꾼다. 이를 다시 처음의 방정식에 대입하면 행렬 R은 다음을 만족한다.
 
@@ -181,7 +185,15 @@ $x,~ y, ~z$축에 대한 회전행렬이 존재하므로 이 형태의 해가 3�
 나머지 3개는 다음과 같은 형태를 띈다.
 
 
-$$\begin{aligned}&\Lambda =\left(\begin{grid}\cell{0000}\gamma &\cell{0100}-\frac{\gamma v}{c}&\cell{0000}0&\cell{0000}0\\\cell{0010}-\frac{\gamma v}{c}&\cell{0110}\gamma &\cell{0010}0&\cell{0010}0\\\cell{0000}0&\cell{0100}0&\cell{0000}1&\cell{0000}0\\\cell{0000}0&\cell{0100}0&\cell{0000}0&\cell{0000}1\end{grid}\right)\end{aligned}$$
+$$
+\left(
+\begin{array}{c | c}
+     \begin{matrix}\gamma  && - \frac{\gamma }{v} \\\\ - \frac{\gamma}{v} && \gamma\end{matrix} & \begin{matrix} 0 && 0 \\\\ 0&& 0\end{matrix}\\\\
+    \hline\\
+    \begin{matrix} 0&&0\\\\0&&0\end{matrix} & \begin{matrix}1 && 0\\\\ 0 && 1\end{matrix}
+\end{array}
+\right)
+$$
 {:.figcaption}
 이것은 우리가 봤던 로렌츠 변환이다! 역시 $ x,~ y,~ z$축으로 운동할 수 있으므로 해가 3개가 나온다.
 
@@ -203,17 +215,19 @@ $$\begin{aligned}&\begin{cases}\det \Lambda =1\ \ \Rightarrow \ \ proper\ lorent
 
 람다의 왼쪽 위 2 바이 2 행렬만 취해서 분석하자.
 
-$$\begin{aligned}&\Lambda \left[v\right]=\left(\begin{grid}\cell{0000}\gamma &\cell{0000}-\frac{\gamma v}{c}\\\cell{0000}-\frac{\gamma v}{c}&\cell{0000}\gamma \end{grid}\right)\end{aligned}$$
+$$
+\begin{pmatrix}\gamma && - \frac{\gamma v}{c} \\\\ - \frac{\gamma v}{c} &&\gamma\end{pmatrix}
+$$
 ​{:.figcaption}
 간단한(!???) 대수를 거치면 다음을 얻을 수 있다. 우리가 아는 상대론적 속력 공식이다.
 
-$$\begin{aligned}&\Lambda \left[v_1\right]\Lambda \left[v_2\right]=\left(\begin{grid}\cell{0000}\gamma _1&\cell{0000}-\frac{\gamma _1v_1}{c}\\\cell{0000}-\frac{\gamma _1v_1}{c}&\cell{0000}\gamma _1\end{grid}\right)\left(\begin{grid}\cell{0000}\gamma _2&\cell{0000}-\frac{\gamma _2v_2}{c}\\\cell{0000}-\frac{\gamma _2v_2}{c}&\cell{0000}\gamma _2\end{grid}\right)=\Lambda \left[\frac{v_1+v_2}{1+v_1v_2/c^2}\right]\end{aligned}$$
+$$\begin{aligned}&\Lambda \left[v_1\right]\Lambda \left[v_2\right]=\begin{pmatrix}\gamma_1 && - \frac{\gamma_1 v}{c} \\\\ - \frac{\gamma_1 v}{c} &&\gamma_1\end{pmatrix}\begin{pmatrix}\gamma_2 && - \frac{\gamma_2 v}{c} \\\\ - \frac{\gamma_2 v}{c} &&\gamma_2\end{pmatrix}=\Lambda \left[\frac{v_1+v_2}{1+v_1v_2/c^2}\right]\end{aligned}$$
 ​{:.figcaption}
 해보면 알겠지만 이 과정은 상당히 번거롭고 지루하다. 결과도 심지어는 더럽다. 이를 간편하게 해줄 방법에 대한 힌트를 회전 행렬에서 찾아보자.
 
 우리는 회전 행렬에서의 합성이 꽤나 단순하단 사실을 안다.
 
-$$\begin{aligned}&R\left[\theta \right]=\left(\begin{grid}\cell{0000}\cos \theta &\cell{0000}\sin \theta \\\cell{0000}-\sin \theta &\cell{0000}\cos \theta \end{grid}\right)\end{aligned}$$
+$$\begin{aligned}&R\left[\theta \right]=\begin{pmatrix}\cos \theta && \sin \theta \\\\ -\sin\theta&&\cos \theta\end{pmatrix}\end{aligned}$$
 ​{:.figcaption}
 그러므로
 
@@ -222,11 +236,11 @@ $$\begin{aligned}&R\left[\theta _1\right]R\left[\theta _2\right]=R\left[\theta _
 이 성질을 이용하기 위해 신속도를 다음과 같이 정의한다.
 
 $$\begin{aligned}&\gamma =\cosh \phi \\ 
-\Rightarrow \ \ \sinh \phi =\frac{v\gamma }{c}\end{aligned}$$
+&\Rightarrow \ \ \sinh \phi =\frac{v\gamma }{c}\end{aligned}$$
 ​​{:.figcaption}
 그러면 람다를 신속도를 이용해 다시 표기할 수 있다.
 
-$$\begin{aligned}&\Lambda \left[\phi \right]=\left(\begin{grid}\cell{0000}\cosh \theta &\cell{0000}-\sinh \theta \\\cell{0000}-\sinh \theta &\cell{0000}\cosh \theta \end{grid}\right)\end{aligned}$$
+$$\begin{aligned}&\Lambda \left[\phi \right]=\begin{pmatrix}\cosh \theta && \sinh \theta \\\\ -\sinh\theta&&\cosh \theta\end{pmatrix}\end{aligned}$$
 {:.figcaption}
 따라서 위의 더럽고 지루했던 속도 합은 깔끔해진다.
 
@@ -390,7 +404,7 @@ $$\begin{aligned}&x=\frac{c}{a'}\left(\sqrt{c^2+a'^2t^2}-c\right)\end{aligned}$$
 {:.figcaption}
 입자는 민코프스키 다이어그램에서 쌍곡선을 따라 움직인다.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/6.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/6.png){:.centered}
 Figure 6. Minkoffski Diagram.
 {:.figcaption}
 
@@ -460,7 +474,7 @@ $$\begin{aligned}&v=c\tanh \left(\frac{u}{c}\log r\right),\ \ where\ r=\frac{m_0
 
 (1)
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/7.png)
+![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/7.png){:.centered}
 
 (2)
 
@@ -505,7 +519,11 @@ $$
 
 풀이 4.
 
-![Full-width image](assets/img/physics/2022-07-26-Special-Relativity-1/8.png)
+$$
+\begin{aligned}
+E_1 = c^2 \frac{m_0^2 + m_1^2 - m_2^2 }{2m_0} ~~and ~~ E_2 = c^2 \frac{m_0^2 + m_2^2 - m_1^2}{2m_0}
+\end{aligned}
+$$
 
 
 풀이 5.
@@ -528,7 +546,7 @@ $$
 
 곱의 미분으로 왼쪽 항을 쪼개주면 된다.
 
-$$\begin{aligned} %!!15
+$$\begin{aligned} 
 &\left(\frac{v-u}{1-uv/c^2}\right)\frac{d\left(m\gamma \right)}{dv}=\frac{d\left(m\gamma v\right)}{dv}=m\gamma +v\frac{d\left(m\gamma \right)}{dv}\\
 &\Rightarrow \ \ \frac{1}{m\gamma }d\left(m\gamma \right)=\frac{c^2-uv}{u\left(v^2-c^2\right)}dv\\
 &\Rightarrow \ \ \ln \left(\frac{m\gamma }{m_0}\right)=\int _0^v\frac{c^2-uv}{u\left(v^2-c^2\right)}dv=\int _0^v\frac{1}{2u}\left(\frac{c-u}{v-c}-\frac{c+u}{v+c}\right)dv\\
@@ -538,24 +556,4 @@ $$\begin{aligned} %!!15
 &\therefore v=c\tanh \left(\frac{u}{c}\ln r\right)
 \end{aligned}
 $$
-{:.figcaption}
-
-$$
-\begin{aligned} %!!15
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
-
 {:.figcaption}

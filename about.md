@@ -10,7 +10,7 @@ order: 1
 ## Hello, World!
 
 Hi, I'm **Soo-Chang Lee**, *a.k.a.* **PMP**.<br>
-Pleaseh check my [resume] if you wish to know more about me.
+Please check my [resume] if you wish to know more about me.
 
 ***
 
