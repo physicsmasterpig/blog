@@ -71,6 +71,7 @@ $x=ct, ~x'=ct'$를 대입하여 연립하면, $\gamma =\sqrt{\frac{1}{1-c^2 /v^2
 따라서 로렌츠 변환(rorentz transformations)는 다음과 같다.
 
 $$\begin{aligned}&\begin{cases}x'=\gamma \left(x-\frac{v}{c}ct\right)\\y'=y\\z'=z\\t'=\gamma \left(ct-\frac{v}{c}x\right)\end{cases}\end{aligned}$$
+
 {:.figcaption}
 이 로렌츠 변환을 이해하기 쉽도록 나타낸 것이 바로 민코프스키 다이어그램이다.
 
@@ -104,6 +105,7 @@ $$\begin{aligned}&\Delta s^2=c^2\Delta t^2-\Delta x^2-\Delta y^2-\Delta z^2\end{
 시공간의 간격제곱의 부호에 따라서 인과관계의 성립 여부가 갈리는데, 아래와 같다.
 
 $$\begin{aligned}&\begin{cases}\Delta s^2>0\ :\ 시간꼴\ 간격\\\Delta s^2<0\ :\ 공간꼴\ 간격\\\Delta s^2=0\ :\ 빛꼴\ 간격\end{cases}\end{aligned}$$
+
 ​{:.figcaption}
 시간꼴 간격에서는 두 사건이 시간적으로 가깝게 연결되있는 상태이다. 인과관계가 성립하고 빛꼴 간격과 더불어 실제로 일어날 수 있는 경우이다.
 
