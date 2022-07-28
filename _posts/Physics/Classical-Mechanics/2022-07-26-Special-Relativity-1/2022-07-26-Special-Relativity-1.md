@@ -44,15 +44,15 @@ Figure 1. Michelson-Morley Interferometer.
 Figure 2. Two different Inertial Coordinates with a constant relative speed.
 {:.figcaption}
 
-두 관성좌표계 $S,~S'$이 상대속력 $v$로 움직이고 있다. 이때 운동은 $x$-축에 대해서만 생각하자.
+두 관성좌표계 $$S,~S'$$이 상대속력 $$v$$로 움직이고 있다. 이때 운동은 $$x$$-축에 대해서만 생각하자.
 
-그러면 항상 다음과 같은 함수 $f,~g$가 존재한다.
+그러면 항상 다음과 같은 함수 $$f,~g$$가 존재한다.
 
 $$\begin{aligned}&
 x'=f\left(x,\ t\right),\ \ t'=g\left(x,\ t\right)
 \end{aligned}$$
 
-관성 좌표계이므로 변환 $(x, t) \mapsto (x',t')$은 선형적이다. 또한, 상대속도가 $v$임을 고려하면 $x=vt$일 때 $x'=0$가 되어야 한다. 그러므로 다음과 같이 표현된다. 
+관성 좌표계이므로 변환 $$(x, t) \mapsto (x',t')$$은 선형적이다. 또한, 상대속도가 $$v$$임을 고려하면 $$x=vt$$일 때 $$x'=0$$가 되어야 한다. 그러므로 다음과 같이 표현된다. 
 
 $$\begin{aligned}& x'=\gamma \left(x-vt\right) \end{aligned}$$
 
@@ -62,12 +62,13 @@ $$\begin{aligned}& x'=\gamma \left(x-vt\right) \end{aligned}$$
 
 
 $$\begin{aligned}&\gamma _v=\gamma _{-v}\end{aligned}$$
+
 그러므로 좌표계의 관점을 바꾸면 아래의 식을 만족한다.
 
 $$\begin{aligned}&x=\gamma \left(x-vt\right)\end{aligned}$$
 
-2개의 식을 연립하면 될 것 같지만, 한가지가 더 필요하다. 바로 광속 불변의 원리이다. 두 좌표계에서 신뢰할 수 있는 물리량은 광속밖에 없기 때문에 빛의 이동을 사건으로 생각하여 v에 c를 대입하면 된다.
-$x=ct, ~x'=ct'$를 대입하여 연립하면, $\gamma =\sqrt{\frac{1}{1-c^2 /v^2}}$이다. 
+2개의 식을 연립하면 될 것 같지만, 한가지가 더 필요하다. 바로 광속 불변의 원리이다. 두 좌표계에서 신뢰할 수 있는 물리량은 광속밖에 없기 때문에 빛의 이동을 사건으로 생각하여 $$v$$에 $$c$$를 대입하면 된다.
+$$x=ct, ~x'=ct'$$를 대입하여 연립하면, $$\gamma =\sqrt{\frac{1}{1-c^2 /v^2}}$$이다. 
 
 따라서 로렌츠 변환(rorentz transformations)는 다음과 같다.
 
@@ -136,7 +137,7 @@ $$\begin{aligned}&s_{Euclideun}^2=x^2+y^2+z^2=x'^2+y'^2+z'^2\ \ \&\ \ R^TR=1\end
 
 로렌츠 군을 정의하기 위해서 빌드업을 하겠다.
 
-좌표계 X에서 관측하는 물리량을 4-vector로 표현하자.
+좌표계 $$X$$에서 관측하는 물리량을 4-vector로 표현하자.
 
 
 $$\begin{aligned}&X^{\mu }=\left(ct,\ x,\ y,\ z\right),\ \ \mu =0,\ 1,\ 2,\ 3\end{aligned}$$
@@ -182,7 +183,7 @@ $$\begin{aligned}&R^TR=1\end{aligned}$$
 
 이는 앞서 봤듯이 회전행렬이 만족해야 하는 조건이다!
 
-$x,~ y, ~z$축에 대한 회전행렬이 존재하므로 이 형태의 해가 3개가 나온다.
+$$x,~ y, ~z$$축에 대한 회전행렬이 존재하므로 이 형태의 해가 3개가 나온다.
 
 나머지 3개는 다음과 같은 형태를 띈다.
 
@@ -197,9 +198,9 @@ $$
 \right)
 $$
 
-이것은 우리가 봤던 로렌츠 변환이다! 역시 $ x,~ y,~ z$축으로 운동할 수 있으므로 해가 3개가 나온다.
+이것은 우리가 봤던 로렌츠 변환이다! 역시 $$ x,~ y,~ z$$축으로 운동할 수 있으므로 해가 3개가 나온다.
 
-위의 방정식을 만족하는 6개의 해의 집합을 로렌츠 군이라고 부른다. 또는, 직교군 $O(1,~ 3)$이라고 부른다. 즉, 로렌츠 군은 시공간에 대한 로렌츠 변환과 회전변환으로 구성된다. 이 군은 대칭성의 측면에서 중요하게 다뤄진다.
+위의 방정식을 만족하는 6개의 해의 집합을 로렌츠 군이라고 부른다. 또는, 직교군 $$O(1,~ 3)$$이라고 부른다. 즉, 로렌츠 군은 시공간에 대한 로렌츠 변환과 회전변환으로 구성된다. 이 군은 대칭성의 측면에서 중요하게 다뤄진다.
 
 위의 방정식의 양변에 디터미넌트를 취하면 다음과 같다.
 
@@ -209,7 +210,7 @@ $$\begin{aligned}&\det \Lambda ^2=1\end{aligned}$$
 
 $$\begin{aligned}&\begin{cases}\det \Lambda =1\ \ \Rightarrow \ \ proper\ lorentz\ group,\ SO\left(1,\ 3\right)\\\det \Lambda =-1\end{cases}\end{aligned}$$
 
-또한, 변환이 시간의 방향을 역전시킬수도 있다. 그러나 시간의 방향을 보존하는 경우를 orthochronous 하다고 한다. proper orthochronus group을 $SO^+(1, 3)$이라고 부르지만 종종 +를 생략하기도 한다.
+또한, 변환이 시간의 방향을 역전시킬수도 있다. 그러나 시간의 방향을 보존하는 경우를 orthochronous 하다고 한다. proper orthochronus group을 $$SO^+(1, 3)$$이라고 부르지만 종종 +를 생략하기도 한다.
 
 그러면, 이제부터 특수상대론의 몇가지 개념들을 나열하겠다.
 
@@ -263,7 +264,7 @@ $$\begin{aligned}&\vec{x'}=0인\ S'에서\Delta s^2=c^2\Delta t^2 \\
 
 일반적으로 입자는 직선으로 움직이지 않는다.(민코프스키 다이어그램에서 )
 
-앞으로 입자의 세계선을 $x(\tau)$ 와 $t(\tau)$로 변수화하는 것은 몇가지 이점을 가져다 줄 것이다.
+앞으로 입자의 세계선을 $$x(\tau)$$ 와 $$t(\tau)$$로 변수화하는 것은 몇가지 이점을 가져다 줄 것이다.
 
 위의 시간 계산이 그 예이다.
 
@@ -295,7 +296,7 @@ $$\begin{aligned}&U\cdot U=U^T\eta U=U'\cdot U'=\gamma ^2\left(c^2-u^2\right)=c^
 
 뉴턴역학과 비슷하게 4-velocity 역시 3개의 요소만 알면 충분하다. 위의 성질을 만족하기 때문이다.
 
-우리가 여태껏 구한 상대론적 상대속도는 오직 한 축에 대한 운동만이었다. 만약 사건의 이동이 관성좌표계 사이의 상대이동과 평행하지 않으면 어떻게 될까? 즉, $S,\ S'$이 $x$축에 대해 $v$의 상대속도로 움직이고 있는데, 사건 $A$가 $xy$평면에서 $u$의 속도로, 각도 $(\alpha)$를 가지고 운동한다면 어떻게 될까?
+우리가 여태껏 구한 상대론적 상대속도는 오직 한 축에 대한 운동만이었다. 만약 사건의 이동이 관성좌표계 사이의 상대이동과 평행하지 않으면 어떻게 될까? 즉, $$S,\ S'$$이 $$x$$축에 대해 $$v$$의 상대속도로 움직이고 있는데, 사건 $$A$$가 $$xy$$평면에서 $$u$$의 속도로, 각도 $$(\alpha)$$를 가지고 운동한다면 어떻게 될까?
 
 우리는 4-velocity로 구할 수 있다.
 
@@ -312,7 +313,7 @@ $$\begin{aligned}&P=mU=\begin{pmatrix}mc\gamma \\m\gamma \vec{u}\end{pmatrix}=\b
 
 $$\begin{aligned}&P^0=\frac{mc}{\sqrt{1-\frac{u^2}{c^2}}}=\frac{1}{c}\left(mc^2+\frac{1}{2}mu^2+\cdots \right)\end{aligned}$$
 
-괄호 속의 첫번째 항은 상수이고 두번째 항은 비상대론적인 운동에너지이다. 여기서 우리는 4-momentum의 시간 요소가 에너지와 연관있음을 강하게 추측할 수 있다.(물론 에너지를 $c$로 나눈 것) 그러므로 아래와 같이 추측하자.
+괄호 속의 첫번째 항은 상수이고 두번째 항은 비상대론적인 운동에너지이다. 여기서 우리는 4-momentum의 시간 요소가 에너지와 연관있음을 강하게 추측할 수 있다.(물론 에너지를 $$c$$로 나눈 것) 그러므로 아래와 같이 추측하자.
 
 $$\begin{aligned}&P=\begin{pmatrix}E/c\\\vec{p}\end{pmatrix}\end{aligned}$$
 
@@ -351,7 +352,7 @@ $$\begin{aligned}&P\cdot P=m^2c^2=\frac{E^2}{c^2}-p^2\\
 
 지금 한번 써보자. 바로 질량이 없는 입자이다.
 
-질량이 없는 입자는 광자로 우리가 알고 있는 빛이다. 고전적으로 빛은 운동량을 가지지 않는다. 질량이 없기 때문이다. 그러나 지금 유도한 공식에 따르면 빛은 $h\nu$의 에너지를 가지기 때문에 운동량을 가진다. 이것은 물질의 파동성에서도 응용되고 수없이 많이 쓰인다. 빛의 운동량에 대해서는 나중에 자세히 알아보자.
+질량이 없는 입자는 광자로 우리가 알고 있는 빛이다. 고전적으로 빛은 운동량을 가지지 않는다. 질량이 없기 때문이다. 그러나 지금 유도한 공식에 따르면 빛은 $$h\nu$$의 에너지를 가지기 때문에 운동량을 가진다. 이것은 물질의 파동성에서도 응용되고 수없이 많이 쓰인다. 빛의 운동량에 대해서는 나중에 자세히 알아보자.
 
 * 타키온이라고 하는 입자는 허수 질량을 가진다. 특수상대론에서 이 경우 운동량의 내적이 음수이기 때문에 빛보다 빠르게 움직여야 하지만 그렇지 않다. 이것에 대해서는 양자장론이 해결한다고 한다. 자세히는 몰라유;;
 
@@ -386,17 +387,17 @@ $$\begin{aligned}&A\equiv \frac{dU}{d\tau }\end{aligned}$$
 
 $$\begin{aligned}&\left(\because A\cdot U=\frac{dU}{d\tau }\cdot U=\frac{1}{2}\frac{d}{d\tau }\left(U\cdot U\right)=\frac{1}{2}\frac{d}{d\tau }\left(c^2\right)=0\right)\end{aligned}$$
 
-S좌표계에서의 가속도와 속도를 이용해서 표현하면 다음과 같다.
+$$S$$좌표계에서의 가속도와 속도를 이용해서 표현하면 다음과 같다.
 
 $$\begin{aligned}&A=\gamma \begin{pmatrix}\dot{\gamma }\\\dot{\gamma }\vec{u}+\gamma \vec{a}\end{pmatrix}\ \ where\ \dot{\gamma }=\frac{d\gamma }{dt}\end{aligned}$$
 
-이제 속도가 0으로 보이는 좌표계 S'을 선택해서 생각해보자. 4-vector이기 때문에 로렌츠 변환의 관계가 있어야 한다.
+이제 속도가 0으로 보이는 좌표계 $$S'$$을 선택해서 생각해보자. 4-vector이기 때문에 로렌츠 변환의 관계가 있어야 한다.
 
 $$\begin{aligned}&A'=\gamma \begin{pmatrix}0\\\vec{a'}\end{pmatrix}\\
 &A=\gamma \begin{pmatrix}\dot{\gamma }\\\dot{\gamma }\vec{u}+\gamma \vec{a}\end{pmatrix}=\begin{pmatrix}\gamma &u\gamma /c\\u\gamma /c&\gamma \end{pmatrix}\begin{pmatrix}0\\\vec{a'}\end{pmatrix}=\begin{pmatrix}u\gamma \vec{a'}/c\\\gamma \vec{a'}\end{pmatrix}\\
 &\Rightarrow \ \ \vec{a}\equiv \dot{u}=\left(1-v^2/c^2\right)^{3/2}\vec{a'}\end{aligned}$$
 
-$S'$ 좌표계에서 등가속도 운동을 한다고 가정하면 다음을 만족한다. $S$좌표계에서는 등가속도 운동이 아니다.
+$$S'$$ 좌표계에서 등가속도 운동을 한다고 가정하면 다음을 만족한다. $$S$$좌표계에서는 등가속도 운동이 아니다.
 
 
 $$\begin{aligned}&u=\frac{\vec{a'}ct}{\sqrt{c^2+a'^2t^2}}\ \ \Rightarrow \ \ \gamma =\sqrt{1+\frac{a'^2t^2}{c^2}}\end{aligned}$$
@@ -412,7 +413,7 @@ $$\begin{aligned}&x=\frac{c}{a'}\left(\sqrt{c^2+a'^2t^2}-c\right)\end{aligned}$$
 Figure 6. Minkoffski Diagram.
 {:.figcaption}
 
-$x=ct$를 경계선으로 그 왼쪽의 세상은 가속하는 관측자에게는 미지의 세계일 것이다.
+$$x=ct$$를 경계선으로 그 왼쪽의 세상은 가속하는 관측자에게는 미지의 세계일 것이다.
 
 이 경계선을 rindler event horizon이라고 부른다. 블랙홀의 사건의 지평선과 많은 것을 공유한다.
 
@@ -427,44 +428,44 @@ $$\begin{aligned}\tau =\int _0^t\frac{cd\overline {t}}{\sqrt{c^2+a'^2\tilde{t}^2
 
 문제 1.
 
-시계 $C$가 관성좌표계 $S$의 원점에 있고 시계 $C'$이 관성 좌표계 $S'$의 원점에 있다. 현재 두 시계는 0초로 동기화 되어있고 두 좌표계는 $u$의 속도로 운동한다.
+시계 $$C$$가 관성좌표계 $$S$$의 원점에 있고 시계 $$C'$$이 관성 좌표계 $$S'$$의 원점에 있다. 현재 두 시계는 0초로 동기화 되어있고 두 좌표계는 $$u$$의 속도로 운동한다.
 
-(1) $C$가 $t_1$에 보낸 라디오 신호를 $C'$이 $t_2'$에 받는다. 이 과정을 민코프스키 다이어그램에 나타내어라.
+(1) $$C$$가 $$t_1$$에 보낸 라디오 신호를 $$C'$$이 $$t_2'$$에 받는다. 이 과정을 민코프스키 다이어그램에 나타내어라.
 
-(2) $t_1$과 $t_2'$의 관계를 구하여라.
+(2) $$t_1$$과 $$t_2'$$의 관계를 구하여라.
 
 
 문제 2.
 
-광자가 $S$좌표계에서 $E$의 에너지를 가지고 $x$축과 $\theta$의 각을 이루면서 직진하고 있다. $S$와 $x$축 방향으로 $u$의 속도로 멀어지는 좌표계 $S'$에서 본 에너지와 각도가 다음과 같음을 구하시오.
+광자가 $$S$$좌표계에서 $$E$$의 에너지를 가지고 $$x$$축과 $$\theta$$의 각을 이루면서 직진하고 있다. $$S$$와 $$x$$축 방향으로 $$u$$의 속도로 멀어지는 좌표계 $$S'$$에서 본 에너지와 각도가 다음과 같음을 구하시오.
 
 $$\begin{aligned}&E'=\gamma E\left(1-\beta \cos \theta \right),\ \ \cos \theta '=\frac{\cos \theta -\beta }{1-\beta \cos \theta }\\
 &where\ \beta =\frac{v}{c}\end{aligned}$$
 
-추가로 $\theta=0$일 때 빛의 도플러 이동을 증명하시오.
+추가로 $$\theta=0$$일 때 빛의 도플러 이동을 증명하시오.
 
 
 문제 3.
 
-좌표계 $S$에서 어떤 입자의 4-momentum이 $P$이다. 4-velocity가 $U$인 관측자가 입자를 관측했을 때 속도가 $v$였다. $v$를 $U$와 $P$로 나타내시오.
+좌표계 $$S$$에서 어떤 입자의 4-momentum이 $$P$$이다. 4-velocity가 $$U$$인 관측자가 입자를 관측했을 때 속도가 $$v$$였다. $$v$$를 $$U$$와 $$P$$로 나타내시오.
 
 
 문제 4.
 
-질량 $m_0$인 입자가 폭발해서 질량이 $m_1$인 입자와 $m_2$인 입자로 쪼개졌다. 각 입자의 에너지를 구하시오.
+질량 $$m_0$$인 입자가 폭발해서 질량이 $$m_1$$인 입자와 $$m_2$$인 입자로 쪼개졌다. 각 입자의 에너지를 구하시오.
 
-(힌트: $(P_0 - P_1)\cdot(P_0 - P_1)$와 $(P_0 - P_2 ) \cdot (P_0 - P_2 )$가 보존된다.)
+(힌트: $$(P_0 - P_1)\cdot(P_0 - P_1)$$와 $$(P_0 - P_2 ) \cdot (P_0 - P_2 )$$가 보존된다.)
 
 
 문제 5.
 
-(1) 어떤 로켓이 자신에 대해 상대속력 $u$로 연료를 분사하고 있다. 시간에 따라서 로켓의 질량을 $m$으로 하고 속도를 $v$로 하자. (좌표계는 로켓의 처음 좌표계이다. 정지한 상태였을 때)
+(1) 어떤 로켓이 자신에 대해 상대속력 $$u$$로 연료를 분사하고 있다. 시간에 따라서 로켓의 질량을 $$m$$으로 하고 속도를 $$v$$로 하자. (좌표계는 로켓의 처음 좌표계이다. 정지한 상태였을 때)
 
 로켓의 4-momentum의 미소 변화를 이용해서 다음 방정식을 이끌어내라.
 
 $$\begin{aligned}&\frac{d\left(m\gamma v\right)}{dv}=\left(\frac{u-v}{1-uv/c^2}\right)\frac{d\left(m\gamma \right)}{dv}\end{aligned}$$
 
-(2) 위의 방정식을 정리해서 $m$, $\gamma$에 대한 미분방정식으로 바꾸고 상대론적 로켓방정식을 유도해라.
+(2) 위의 방정식을 정리해서 $$m$$, $$\gamma$$에 대한 미분방정식으로 바꾸고 상대론적 로켓방정식을 유도해라.
 
 $$\begin{aligned}&v=c\tanh \left(\frac{u}{c}\log r\right),\ \ where\ r=\frac{m_0}{m}\end{aligned}$$
 
@@ -501,7 +502,7 @@ E'=\gamma E\left(1-\beta \cos \theta \right),\ \ \cos \theta '=\frac{\cos \theta
 &where\ \beta =\frac{v}{c}
 \end{aligned}$$
 
-$\theta$가 0이면 에너지가 다음과 같이 변환된다.
+$$\theta$$가 0이면 에너지가 다음과 같이 변환된다.
 
 $$\begin{aligned}&hf'=E'=\frac{1}{\sqrt{1-\beta ^2}}E\left(1-\beta \right)=hf\sqrt{\frac{1-\beta }{1+\beta }}\end{aligned}$$
 
@@ -530,7 +531,7 @@ $$
 
 (1)
 
-지면에 대한 연료의 속력을 $u'$, 이에 대한 감마를 $\gamma'$이라고 두자. 전체 4-momentum은 보존되기 때문에 다음을 만족한다.
+지면에 대한 연료의 속력을 $$u'$$, 이에 대한 감마를 $$\gamma'$$이라고 두자. 전체 4-momentum은 보존되기 때문에 다음을 만족한다.
 
 $$
 \begin{aligned}
