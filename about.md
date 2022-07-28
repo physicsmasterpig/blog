@@ -34,3 +34,4 @@ based on the jekyll theme [Hydejack].
 <!-- Links -->
 [resume]: /resume/
 [Hydejack]: https://hydejack.com
+[Seoul National University]: https://www.snu.ac.kr/
