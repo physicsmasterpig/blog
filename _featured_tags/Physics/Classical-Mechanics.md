@@ -6,5 +6,5 @@ slug: classical-mechanics
 category: physics
 sidebar: true
 description: >
-   Posts about blogging / jekyll theme.
+   Posts about Classical Mechanics. 
 ---

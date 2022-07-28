@@ -7,9 +7,10 @@ sidebar: true
 order: 1
 ---
 
-## Hello, World!
+## Welcome!
 
 Hi, I'm **Soo-Chang Lee**, *a.k.a.* **PMP**.<br>
+I'm a college student of **[Seoul National University]** studying physics. <br>
 Please check my [resume] if you wish to know more about me.
 
 ***

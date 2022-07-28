@@ -6,5 +6,5 @@ slug: physics
 sidebar: true
 order: 3
 description: >
-  Log study results
+  Physics Study. 
 ---

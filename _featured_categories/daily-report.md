@@ -4,7 +4,7 @@ type: category
 title: Daily Report
 slug: daily-report
 sidebar: true
-order: 5
+order: 6
 description: >
   Daily Reports.
 ---

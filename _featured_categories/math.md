@@ -6,5 +6,5 @@ slug: math
 sidebar: true
 order: 4
 description: >
-  Log study results
+  Math Study. 
 ---
