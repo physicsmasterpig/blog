@@ -1,7 +1,7 @@
 ---
 layout: welcome
 title: About
-permalink: /about/
+permalink: /blog/about/
 more_posts: posts.md
 sidebar: true
 order: 1
