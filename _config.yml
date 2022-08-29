@@ -39,14 +39,14 @@ keywords:              ["Development", "C++", "Rust", "Jekyll"]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/me.jpg
+logo:                  /blog/assets/img/me.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Soo-Chang Lee
   email:               physicsmp1217@gmail.com
-  picture:             /assets/img/me.jpg
+  picture:             /blog/assets/img/me.jpg
   social:
     linkedin:          
     github:            physicsmasterpig
@@ -86,7 +86,7 @@ excerpt_separator:     <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background:          center / cover url(/assets/img/8.jpg)
+  background:          center / cover url(/blog/assets/img/8.jpg)
   overlay:             false
 accent_color:          rgb(68,53,68) #rgb(0,174,239)
 
@@ -329,7 +329,7 @@ hydejack:
     enabled:           false
     cache_version:     13
     precache_assets:
-      - /assets/img/swipe.svg
+      - /blog/assets/img/swipe.svg
 
 
 # Collections
@@ -453,21 +453,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /blog/assets/img/sidebar-bg.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /blog/assets/img/sidebar-bg.jpg
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /blog/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com

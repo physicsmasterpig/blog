@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Tags
-permalink: /tags/
+permalink: /blog/tags/
 sidebar: true
 order: 8
 description: >

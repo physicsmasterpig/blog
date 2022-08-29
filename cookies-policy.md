@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cookies Policy
-permalink: /cookies-policy/
+permalink: /blog/cookies-policy/
 ---
 
 ## TL;DR

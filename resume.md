@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Resume
-permalink: /resume/
+permalink: /blog/resume/
 description: >
   My name is Lee Soo-Chang
 hide_description: true
@@ -22,6 +22,6 @@ no_language_icons: false
 no_skill_icons: false
 buttons:
   print: false
-#  pdf: /assets/Resume.pdf
-#  json: /assets/resume.json
+#  pdf: /blog/assets/Resume.pdf
+#  json: /blog/assets/resume.json
 ---

@@ -5,7 +5,7 @@ subtitle: "Ultimate Classical Mechanics Note"
 category: physics
 tags: classical-mechanics
 image: 
-  path: /assets/img/physics/2022-07-26-Special-Relativity-1/2.png
+  path: /blog/assets/img/physics/2022-07-26-Special-Relativity-1/2.png
 ---
 Mechanics of Single Particle
 

@@ -5,7 +5,7 @@ subtitle: "Special Relativity"
 category: physics
 tags: classical-mechanics
 image: 
-  path: /assets/img/physics/2022-07-26-Special-Relativity-1/2.png
+  path: /blog/assets/img/physics/2022-07-26-Special-Relativity-1/2.png
 ---
 
 #특수상대론 #상대론 #상대성원리 #광속 #불변 #로렌츠 #변환 #갈릴레이 #관성좌표계 #인자 #로렌츠인자 #민코프스키 #우주시간 #세계선 #빛 #시간지연 #길이수축 #쌍둥이역설 #동시성 #상대성 #상대론적속력 #기하학 #불변갼격 #회전분석 #선속도 #고유시간 #4백터 
@@ -32,7 +32,7 @@ image:
 
 광속불변의 원리는 마이켈슨-몰리 실험에서 입증되었다. 본래 에테르의 존재성을 확인하기 위해 계획되었던 이 실험에서 광속이 언제나 일정함이 검증되었다. 계를 움직이고 회전시키고 여러 조작을 반복해도 같은 결과를 얻은 이 실험에 대해서는 유명하기 때문에 찾아보기를 추천한다.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/1.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/1.png){:.centered}
 Figure 1. Michelson-Morley Interferometer.
 {:.figcaption}
 
@@ -40,7 +40,7 @@ Figure 1. Michelson-Morley Interferometer.
 
 그러면, 로렌츠 변환에 대해서 알아보자.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/2.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/2.png){:.centered}
 Figure 2. Two different Inertial Coordinates with a constant relative speed.
 {:.figcaption}
 
@@ -78,7 +78,7 @@ $$\begin{aligned}&\begin{cases}x'=\gamma \left(x-\frac{v}{c}ct\right)\\y'=y\\z'=
 
 민코프스키 다이어그램의 형태는 아래와 같다. 공간축과 시간축으로 구성되있는 복소좌표계이다.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/3.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/3.png){:.centered}
 Figure 3. Minkoffski Diagram. 
 {:.figcaption}
 
@@ -88,7 +88,7 @@ Figure 3. Minkoffski Diagram.
 
 이 세계선을 이용하면 다양한 역설을 해결할 수 있다. 이는 다음글인 역설편에서 더 자세히 다루겠다. 맛보기만 하면 아래 그림과 같이 움직이는 좌표계에서 본 세계는 좌표축이 빛의 세계선 쪽으로 회전한 형태로 된다. 그래서 기하적으로 두 좌표계 사이의 시간 간격과 공간 간격을 간편히 계산할 수 있다.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/4.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/4.png){:.centered}
 
 
 Figure 4. Minkoffski Diagram. 
@@ -113,7 +113,7 @@ $$\begin{aligned}&\begin{cases}\Delta s^2>0\ :\ 시간꼴\ 간격\\\Delta s^2<0\
 
 빛꼴 간격에서는 두 사건을 빛으로 연결 가능하다. 다시 말하면 두 사건 사이의 정보가 빛의 속도로 전달된다.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/5.jpg){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/5.jpg){:.centered}
 Figure 5. Light Cone. 
 https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%84%A0
 {:.figcaption}
@@ -409,7 +409,7 @@ $$\begin{aligned}&x=\frac{c}{a'}\left(\sqrt{c^2+a'^2t^2}-c\right)\end{aligned}$$
 
 입자는 민코프스키 다이어그램에서 쌍곡선을 따라 움직인다.
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/6.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/6.png){:.centered}
 Figure 6. Minkoffski Diagram.
 {:.figcaption}
 
@@ -478,7 +478,7 @@ $$\begin{aligned}&v=c\tanh \left(\frac{u}{c}\log r\right),\ \ where\ r=\frac{m_0
 
 (1)
 
-![Full-width image](/assets/img/physics/2022-07-26-Special-Relativity-1/7.png){:.centered}
+![Full-width image](/blog/assets/img/physics/2022-07-26-Special-Relativity-1/7.png){:.centered}
 
 (2)
 
