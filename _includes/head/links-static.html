@@ -21,7 +21,7 @@
 
   <link rel="dns-prefetch" href="{{ '/blog/assets/js/search-worker-9.1.6.js' | relative_url }}" as="worker" id="_hrefSearch">
 {% if site.kramdown.math_engine == 'katex' %}
-  {% capture katex_url %}{{ 'assets/bower_components/katex/dist/katex.min.css' | relative_url }}{% endcapture %}
+  {% capture katex_url %}{{ '/blog/assets/bower_components/katex/dist/katex.min.css' | relative_url }}{% endcapture %}
   <link rel="dns-prefetch" href="{{ katex_url }}" id="_katexPreload">
   <noscript><link rel="stylesheet" href="{{ katex_url }}"></noscript>
 {% endif %}

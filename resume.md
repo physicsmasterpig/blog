@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Resume
-permalink: /blog/resume/
+permalink: /resume/
 description: >
   My name is Lee Soo-Chang
 hide_description: true
