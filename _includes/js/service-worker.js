@@ -47,8 +47,8 @@ const GOOGLE_FONTS = "{{ site.google_fonts_url | default:'https://fonts.googleap
 // {% endif %}
 
 const SHELL_FILES = [
-  "{{ '/blog/assets/css/hydejack-9.1.6.css' | relative_url }}",
-  "{{ '/blog/assets/js/service-worker.js' | relative_url }}",
+  "{{ '/assets/css/hydejack-9.1.6.css' | relative_url }}",
+  "{{ '/assets/js/service-worker.js' | relative_url }}",
 ];
 
 const STATIC_FILES = [
@@ -57,7 +57,7 @@ const STATIC_FILES = [
 ];
 
 const PRE_CACHED_ASSETS = [
-  '{{ "/blog/assets/icons/favicon.ico" | relative_url }}',
+  '{{ "/assets/icons/favicon.ico" | relative_url }}',
   /*{% if site.accent_image %}{% unless site.accent_image.background %}*/"{% include_cached smart-url url=site.accent_image %}",/*{% endunless %}{% endif %}*/
   /*{% if site.logo %}*/"{% include_cached smart-url url=site.logo %}",/*{% endif %}*/
   /*{% for file in site.hydejack.offline.precache_assets %}*/"{% include_cached smart-url url=file %}",
@@ -117,7 +117,7 @@ const warn = (e) => {
 
 async function getIconFontFiles() {
   const fontURLs = STATIC_FILES.filter(x => (
-    x.startsWith('{{ "/blog/assets/icomoon/fonts/" | relative_url }}') &&
+    x.startsWith('{{ "/assets/icomoon/fonts/" | relative_url }}') &&
     x.endsWith('.woff')
   ));
   return [ICON_FONT, ...fontURLs];
@@ -125,7 +125,7 @@ async function getIconFontFiles() {
 
 async function getKaTeXFontFiles() {
   const fontURLs = STATIC_FILES.filter(x => (
-    x.startsWith('{{ "/blog/assets/bower_components/katex/dist/fonts/" | relative_url }}') &&
+    x.startsWith('{{ "/assets/bower_components/katex/dist/fonts/" | relative_url }}') &&
     x.endsWith('.woff2')
   ));
   return [KATEX_FONT, ...fontURLs];
@@ -176,7 +176,7 @@ async function cacheShell(cache) {
   ]);
 
   const jsFiles = STATIC_FILES.filter(url => (
-    url.startsWith('{{ "/blog/assets/js/" | relative_url }}') &&
+    url.startsWith('{{ "/assets/js/" | relative_url }}') &&
     url.endsWith('.js') && !url.includes('LEGACY')
   ));
 
