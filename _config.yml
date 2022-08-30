@@ -467,7 +467,7 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /blog/img/sidebar-bg.jpg
+        path: /blog/assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
