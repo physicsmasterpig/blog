@@ -24,7 +24,7 @@ layout: base
     <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
     {% include components/message.html text=page.description hide=page.hide_description %}
     {% if page.use_math %}
-      {% include mathjax_support.html %}
+      {% include mathjax.html %}
   </header>
 
   {{ content }}
